@@ -32,8 +32,8 @@ const Layout = ({ children }) => {
       <Sidebar/>
       <div
         style={{
-          margin: `0 auto`,
-          maxWidth: 960,
+          marginRight: `20px`,
+          maxWidth: 860,
           padding: `45px`,
           float: `right`,
           width: `70%`,

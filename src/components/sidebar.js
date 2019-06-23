@@ -6,7 +6,6 @@ import Logo from "../components/image"
 const Sidebar = ({ }) => (
   <aside
     style={{
-      //background: `#ff8dbd`,
       width: `30%`,
       height: `100%`,
       position: `fixed`,
@@ -16,29 +15,28 @@ const Sidebar = ({ }) => (
   >
     <div
       style={{
-        margin: `0 auto`,
-        maxWidth: 960,
+        marginLeft: `20px`,
+        maxWidth: 200,
         padding: `1.45rem 1.0875rem`,
       }}
     >
-      <h1 style={{ margin: 0 }}>
-        <Link
-          to="/"
-          style={{
-            color: `white`,
-            textDecoration: `none`,
-          }}
-        >
+
+        <div id="logo" style={{ marginBottom: `40px`, }}>
+        <Link to="/">
         <div style={{ maxWidth: `80px`, height: `auto`}}>
           <Logo />
         </div>
         </Link>
-      </h1>
-    </div>
-    <h3>Recent Posts</h3>
-    <Link to="/page-2/">The full scope</Link>
+        </div>
 
-    <footer>
+        <div id="listOfPosts" style={{}}>
+          <h3>Recent Posts</h3>
+          <Link to="/page-2/">The full scope</Link>
+        </div>
+
+      </div>
+
+    <footer style={{ marginLeft: `40px`, marginTop: `420px`, }}>
       © {new Date().getFullYear()}, Built with
       {` `}
       <a href="https://www.gatsbyjs.org">Gatsby</a>

@@ -10,6 +10,7 @@ const Form = ({ }) => (
   marginTop: `30px`,
   width: `600px`,
   }}  >
+  <input type="hidden" name="form-name" value="username" />
   <label>
     <input type="text" name="name" placeholder="http://hotscope.io/leia" style={{
       border: `none`,

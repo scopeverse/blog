@@ -5,7 +5,7 @@ const Form = ({ }) => (
 
 <div>
 
-<form method="POST" netlify-honeypot="bot-field" data-netlify="true" style= {{
+<form name="username" method="POST" netlify-honeypot="bot-field" data-netlify="true" style= {{
   marginLeft: `50px`,
   marginTop: `30px`,
   width: `600px`,

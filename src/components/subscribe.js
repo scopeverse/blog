@@ -1,6 +1,8 @@
 import PropTypes from "prop-types"
 import React from "react"
 
+import Form from "./form"
+
 const Subscribe = ({ }) => (
 
 <div
@@ -32,6 +34,7 @@ const Subscribe = ({ }) => (
     >
     Sign up for Hotscope ahead of time and claim your unique username when the product goes live.
     </div>
+    <Form />
   </div>
 )
 

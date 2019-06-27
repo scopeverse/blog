@@ -6,11 +6,14 @@ import Logo from "../components/image"
 const Sidebar = ({ }) => (
   <aside
     style={{
-      width: `30%`,
-      height: `100%`,
-      position: `fixed`,
-      float: `left`,
+      order: `0`,
+      display: `flex`,
       padding: `20px`,
+      minWidth: `300px`,
+      width: `300px`,
+      height: `100%`,
+      backgroundColor: `white`,
+      zIndex: `99`,
     }}
   >
     <div
@@ -18,6 +21,7 @@ const Sidebar = ({ }) => (
         marginLeft: `20px`,
         maxWidth: 200,
         padding: `1.45rem 1.0875rem`,
+        position: `fixed`,
       }}
     >
 
@@ -36,7 +40,11 @@ const Sidebar = ({ }) => (
 
       </div>
 
-    <footer style={{ marginLeft: `40px`, marginTop: `420px`, }}>
+    <footer style={{
+      marginLeft: `30px`,
+      position: `fixed`,
+      bottom: `30px`,
+    }}>
       © {new Date().getFullYear()}, Built with
       {` `}
       <a href="https://www.gatsbyjs.org">Gatsby</a>

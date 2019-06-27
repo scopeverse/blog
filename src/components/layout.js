@@ -26,20 +26,23 @@ const Layout = ({ children }) => {
 
   return (
     <>
-    <div id="wrapper" style={{
+    <div class="container" style={{
+      display: `flex`,
+      flexWrap: `no-wrap`,
+      justifyContent: `flex-start`,
+      flexDirection: `row`,
       margin: `auto`,
     }}>
       <Sidebar/>
       <div
-        style={{
-          marginRight: `20px`,
-          maxWidth: 860,
-          padding: `45px`,
-          float: `right`,
-          width: `70%`,
-        }}
-      >
-        <main>{children}</main>
+      style={{
+        width: `900px`,
+      }}>
+        <main
+          style={{
+            padding: `45px`,
+          }}
+          >{children}</main>
       </div>
       </div>
     </>

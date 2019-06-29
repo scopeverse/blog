@@ -6,49 +6,51 @@ import Logo from "../components/image"
 const Sidebar = ({ }) => (
   <aside
     style={{
-      order: `0`,
-      display: `flex`,
-      padding: `20px`,
-      minWidth: `300px`,
-      width: `300px`,
+      position: `fixed`,
       height: `100%`,
+      display: `flex`,
+      flexDirection: `column`,
+      flexWrap: `wrap`,
+      justifyContent: `flex-start`,
+      padding: `2.5rem 3rem`,
+      width: `300px`,
+      minWidth: `300px`,
       backgroundColor: `white`,
-      zIndex: `99`,
+      zIndex: `5`,
     }}
   >
-    <div
-      style={{
-        marginLeft: `20px`,
-        maxWidth: 200,
-        padding: `1.45rem 1.0875rem`,
-        position: `fixed`,
-      }}
-    >
 
-        <div id="logo" style={{ marginBottom: `40px`, }}>
+        <div id="logo" style={{
+          marginBottom: `40px`,
+          order: `2`,
+          height: `80px`,
+        }}>
         <Link to="/">
-        <div style={{ maxWidth: `80px`, height: `auto`}}>
+        <div style={{
+          maxWidth: `80px`,
+          height: `auto`
+        }}>
           <Logo />
         </div>
         </Link>
         </div>
 
-        <div id="listOfPosts" style={{}}>
+        <div id="listOfPosts" style={{
+          order: `2`,
+        }}>
           <h3>Recent Posts</h3>
           <Link to="/page-2/">The full scope</Link>
         </div>
 
-      </div>
+        <footer style={{
+          order: `1`,
+          position: `fixed`,
+          bottom: `30px`,
+          fontSize: `17px`,
+        }}>
+          © {new Date().getFullYear()} Hotscope
+        </footer>
 
-    <footer style={{
-      marginLeft: `30px`,
-      position: `fixed`,
-      bottom: `30px`,
-    }}>
-      © {new Date().getFullYear()}, Built with
-      {` `}
-      <a href="https://www.gatsbyjs.org">Gatsby</a>
-    </footer>
 
   </aside>
 )

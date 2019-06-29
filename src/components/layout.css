@@ -203,7 +203,7 @@ html {
   box-sizing: inherit;
 }
 body {
-  color: #586782;
+  color: rgba(72, 85, 107, 0.9);
   font-family: 'PT Serif', serif;
   font-weight: normal;
   word-wrap: break-word;
@@ -379,6 +379,9 @@ p {
   padding-right: 0;
   padding-top: 0;
   margin-bottom: 1.45rem;
+  line-height: 29px;
+  letter-spacing: 0.25px;
+  font-size: 20px;
 }
 figure {
   margin-left: 0;

@@ -28,22 +28,28 @@ const Layout = ({ children }) => {
     <>
     <div class="container" style={{
       display: `flex`,
-      flexWrap: `no-wrap`,
-      justifyContent: `flex-start`,
       flexDirection: `row`,
+      flexWrap: `wrap`,
+      justifyContent: `flex-start`,
       margin: `auto`,
     }}>
       <Sidebar/>
-      <div
-      style={{
-        width: `900px`,
+      <div id="page-content" style={{
+        display: `flex`,
+        flexFlow: `row wrap`,
+        paddingLeft: `300px`,
+        margin: `auto`,
       }}>
-        <main
+          <main
           style={{
-            padding: `45px`,
+            position: `relative`,
+            width: `850px`,
+            paddingRight: `45px`,
+            top: `45px`,
+
           }}
           >{children}</main>
-      </div>
+        </div>
       </div>
     </>
   )

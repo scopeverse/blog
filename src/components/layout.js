@@ -11,7 +11,7 @@ import { useStaticQuery, graphql } from "gatsby"
 
 import Sidebar from "./sidebar"
 import Subscribe from "./subscribe"
-import "./layout.css"
+import styles from "./layout.module.css"
 
 const Layout = ({ children }) => {
   const data = useStaticQuery(graphql`
@@ -25,37 +25,14 @@ const Layout = ({ children }) => {
   `)
 
   return (
-    <>
-    <div class="container" style={{
-      display: `flex`,
-      height: `100vh`,
-      flexFlow: `row wrap`,
-      justifyContent: `flex-start`,
-      margin: `auto`,
-      flex: `1 100%;`,
-    }}>
+    <div className={styles.container}>
 
       <Sidebar/>
 
-      <main style={{
-            display: `flex`,
-            alignSelf: `flex-start`,
-            flexFlow: `row wrap`,
-            align: `center`,
-            height: `100vh`,
-            backgroundColor: `white`,
-            zIndex: `100`,
-            position: `relative`,
-            padding: `45px 45px 45px 25px`,
-
-            overflow: `auto`,
-            flex: `2 1 700px`,
-      }} > {children}</main>
-
-
+      <main className={styles.main}>{children}</main>
 
       </div>
-    </>
+    
   )
 }
 

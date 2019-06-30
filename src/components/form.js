@@ -5,7 +5,9 @@ const Form = ({ }) => (
 
 <div>
 
-<form name="username" method="GET" netlify-honeypot="bot-field" data-netlify="true" autocomplete="off" target="_blank" action="https://malikpiara.typeform.com/to/doGg34/" style= {{
+<form name="username" method="POST" netlify-honeypot="bot-field" data-netlify="true" autocomplete="off" target="_blank"
+onsubmit="window.open('http://google.com/','_blank',);"
+style= {{
   marginLeft: `50px`,
   marginTop: `30px`,
   width: `600px`,

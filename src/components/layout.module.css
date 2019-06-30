@@ -621,3 +621,45 @@ pre tt:after {
     font-size: 100%;
   }
 }
+
+.container {
+  display: flex;
+      height: 100vh;
+      flex-flow: row wrap;
+      justify-content: flex-start;
+      margin: auto;
+      flex: 1 100%;
+}
+
+.main {
+  display: flex;
+  align-self: flex-start;
+  flex-flow: row wrap;
+  height: 100vh;
+  background-color: white;
+  z-index: 10;
+  position: relative;
+  padding: 45px 45px 45px 25px;
+  overflow: auto;
+  flex: 2 1 700px;
+}
+
+.main > * {
+  width: 800px;
+}
+
+.navbar {
+  order: 0;
+  flex: 1 1 200px;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  padding: 2.5rem 0rem 0rem 3rem;
+  width: 250px;
+  z-index: 5;
+}
+
+@media (max-width: 900px) {
+  .navbar { display: none; background-color: red; }
+}

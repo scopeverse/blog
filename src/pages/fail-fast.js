@@ -7,8 +7,11 @@ import SEO from "../components/seo"
 
 const SecondPage = () => (
   <Layout>
-    <SEO title="Permission to Fail" />
-    <SEO metaDescription="When we give ourselves permission to fail faster, we are giving ourselves permission to grow faster. This reasoning doesn’t come naturally. Testing ourselves early on triggers anxiety as we perceive our initial inability as failure. We are wired to avoid it because, for most part of human history, failing could lead to fatal consequences." />
+    <SEO title="Permission to Fail"
+          description="When we give ourselves permission to fail faster, we are giving ourselves permission to grow faster. This reasoning doesn’t come naturally. Testing ourselves early on triggers anxiety as we perceive our initial inability as failure. We are wired to avoid it because, for most part of human history, failing could lead to fatal consequences."
+          
+          />
+
     <h1>Permission to Fail</h1>
 
     <p>The approach many people have to learning is to go through books, reading them from cover to cover. This linear strategy comes from our belief that the understanding of a subject will grow in direct proportion to the amount of hours we invest in it. This reasoning seems to be spread out across many domains as we often think of the world as linear.</p>
@@ -36,8 +39,8 @@ const SecondPage = () => (
 
     <p>I often start new projects that I kill, sometimes, as fast as I start them. This is because I see great value in the potential outcomes, and contained risk in the harm of my free time. I approach them in a particular way, often building prototypes instead of fully fledged products that take months to code and design. This asymmetry enables me to fail fast and learn in the process. The short-term failures are important learning about where not to look and what not to do and I’m betting on the long-term.</p>
 
-    —— <br />
-    Thank you Dad, Tobias Freudenreich, Paulo Gonçalves, João Araújo, Mariana Barbosa for reading and going through early drafts of this.
+    <p>——</p> <br />
+    <p>Thank you Dad, Tobias Freudenreich, Paulo Gonçalves, João Araújo, Mariana Barbosa for reading and going through early drafts of this.</p>
 
     <Subscribe />
     <Link to="/">Go back to the homepage</Link>

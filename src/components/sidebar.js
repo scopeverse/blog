@@ -2,21 +2,10 @@ import { Link } from "gatsby"
 import PropTypes from "prop-types"
 import React from "react"
 import Logo from "../components/image"
+import styles from "./layout.module.css"
 
 const Sidebar = ({ }) => (
-  <aside
-    style={{
-      order: `0`,
-      flex: `1 1 200px`,
-      display: `flex`,
-      flexDirection: `column`,
-      flexWrap: `wrap`,
-      justifyContent: `flex-start`,
-      padding: `2.5rem 0rem 0rem 3rem`,
-      width: `250px`,
-      zIndex: `5`,
-    }}
-  >
+  <aside className={styles.navbar}>
 
         <div id="logo" style={{
           marginBottom: `40px`,

@@ -34,25 +34,26 @@ const Layout = ({ children }) => {
       margin: `auto`,
       flex: `1 100%;`,
     }}>
+
       <Sidebar/>
-      <div id="page-content" style={{
-        display: `flex`,
-        margin: `auto`,
-        height: `100vh`,
-      }}>
-          <main
-          style={{
+
+      <main style={{
+            display: `flex`,
+            alignSelf: `flex-start`,
+            flexFlow: `row wrap`,
+            align: `center`,
+            height: `100vh`,
+            backgroundColor: `white`,
+            zIndex: `100`,
             position: `relative`,
-            width: `850px`,
-            paddingRight: `45px`,
-            paddingBottom:  `45px`,
-            marginTop: `45px`,
-            marginLeft: `45px`,
+            padding: `45px 45px 45px 25px`,
+
             overflow: `auto`,
-            flex: `1 1 auto`,
-          }}
-          >{children}</main>
-        </div>
+            flex: `2 1 700px`,
+      }} > {children}</main>
+
+
+
       </div>
     </>
   )

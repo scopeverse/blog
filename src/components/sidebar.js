@@ -7,14 +7,13 @@ const Sidebar = ({ }) => (
   <aside
     style={{
       order: `0`,
+      flex: `1 1 200px`,
       display: `flex`,
       flexDirection: `column`,
       flexWrap: `wrap`,
       justifyContent: `flex-start`,
-      padding: `2.5rem 3rem`,
+      padding: `2.5rem 0rem 0rem 3rem`,
       width: `250px`,
-      minWidth: `230px`,
-      backgroundColor: `white`,
       zIndex: `5`,
     }}
   >
@@ -38,7 +37,7 @@ const Sidebar = ({ }) => (
           order: `2`,
         }}>
           <h3>Recent Posts</h3>
-          <Link to="/page-2/">The full scope</Link>
+          <Link to="/fail-fast/">Permission to Fail</Link>
         </div>
 
         <footer style={{

@@ -7,14 +7,14 @@ const Subscribe = ({ }) => (
 
 <div
   style={{
-    width: `auto`,
+    maxWidth: `800px`,
     height: `335px`,
     backgroundColor:`#FFF4F8`,
     backgroundImage: `url("https://svgshare.com/i/DoP.svg")`,
     backgroundRepeat: `no-repeat`,
     backgroundPosition: `-10% 100%`,
     padding: `70px 150px`,
-    margin: `20px 0px 20px auto`,
+    margin: `20px 0 20px 0`,
   }}
   >
   <h2 style={{

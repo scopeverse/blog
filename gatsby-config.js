@@ -1,6 +1,7 @@
 module.exports = {
   siteMetadata: {
     title: `Hotscope Blog`,
+    siteUrl: `https://blog.hotscope.io`,
     description: `Hotscope is place to rate and find better books, podcasts and online courses so you can spend less time searching and more time learning`,
     author: `@malikpiara`,
   },
@@ -13,6 +14,7 @@ module.exports = {
         path: `${__dirname}/src/images`,
       },
     },
+    `gatsby-transformer-remark`,
     `gatsby-transformer-sharp`,
     `gatsby-plugin-sharp`,
     {

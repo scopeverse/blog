@@ -5,23 +5,24 @@ const Form = ({ }) => (
 
 <div>
 
-<form name="username" method="POST" netlify-honeypot="bot-field" data-netlify="true" style= {{
+<form name="username" method="GET" netlify-honeypot="bot-field" data-netlify="true" autocomplete="off" target="_blank" action="https://malikpiara.typeform.com/to/doGg34/" style= {{
   marginLeft: `50px`,
   marginTop: `30px`,
   width: `600px`,
   }}  >
   <input type="hidden" name="form-name" value="username" />
   <label>
-    <input type="text" name="name" placeholder="http://hotscope.io/leia" style={{
+  <span class="fixedText" id="usernamePrefix" style={{borderBottom: `1px solid #252525`, paddingBottom: `3px`,}}>hotscope.io/</span>
+    <input type="text" name="name" placeholder="leia" style={{
       border: `none`,
       borderBottom: `1px solid #252525`,
       background: `transparent`,
       marginRight: `20px`,
-      width: `360px`,
+      width: `280px`,
       outline: `none`,
     }} />
   </label>
-  <input type="submit" value="Subscribe" style={{
+  <input class="btn" type="submit" value="Subscribe" style={{
     width: `120px`,
     height: `50px`,
     backgroundColor:`#252525`,

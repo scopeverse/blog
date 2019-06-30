@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="400px" height="400px" viewBox="0 0 400 400" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 52.2 (67145) - http://www.bohemiancoding.com/sketch -->
+    <title>FINAL Copy</title>
+    <desc>Created with Sketch.</desc>
+    <g id="FINAL-Copy" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <rect fill="#FF8DBD" x="0" y="0" width="400" height="400"></rect>
+        <g id="Hotscope" transform="translate(85.000000, 163.000000)" fill="#FFFFFF">
+            <path d="M115,-77 L147,-77 C149.761424,-77 152,-74.7614237 152,-72 L152,-51.0358612 C152,-48.2744374 149.761424,-46.0358612 147,-46.0358612 L128.833895,-46.0358612 C116.039609,-46.0358612 105.66779,-35.6640428 105.66779,-22.8697564 L105.66779,97.7208903 C105.66779,110.515177 116.039609,120.886995 128.833895,120.886995 L147,120.886995 C149.761424,120.886995 152,123.125571 152,125.886995 L152,147 C152,149.761424 149.761424,152 147,152 L115,152 C94.5654643,152 78,135.434536 78,115 L78,-40 C78,-60.4345357 94.5654643,-77 115,-77 Z" id="[" transform="translate(115.000000, 37.500000) rotate(-90.000000) translate(-115.000000, -37.500000) "></path>
+        </g>
+    </g>
+</svg>

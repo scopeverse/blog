@@ -8,7 +8,9 @@ import SEO from "../components/seo"
 const SecondPage = () => (
   <Layout>
     <SEO title="Permission to Fail" />
+    <SEO metaDescription="When we give ourselves permission to fail faster, we are giving ourselves permission to grow faster. This reasoning doesn’t come naturally. Testing ourselves early on triggers anxiety as we perceive our initial inability as failure. We are wired to avoid it because, for most part of human history, failing could lead to fatal consequences." />
     <h1>Permission to Fail</h1>
+
     <p>The approach many people have to learning is to go through books, reading them from cover to cover. This linear strategy comes from our belief that the understanding of a subject will grow in direct proportion to the amount of hours we invest in it. This reasoning seems to be spread out across many domains as we often think of the world as linear.</p>
 
     <p>There is another learning strategy. It relies on a circular approach where we start by assessing our knowledge, go on to reflect, pinpoint what we don’t know and then adjust course rapidly. We do so by exposing ourselves to tests and challenges early on and going back to them frequently.</p>

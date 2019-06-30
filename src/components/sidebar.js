@@ -6,15 +6,14 @@ import Logo from "../components/image"
 const Sidebar = ({ }) => (
   <aside
     style={{
-      position: `fixed`,
-      height: `100%`,
+      order: `0`,
       display: `flex`,
       flexDirection: `column`,
       flexWrap: `wrap`,
       justifyContent: `flex-start`,
       padding: `2.5rem 3rem`,
-      width: `300px`,
-      minWidth: `300px`,
+      width: `250px`,
+      minWidth: `230px`,
       backgroundColor: `white`,
       zIndex: `5`,
     }}
@@ -43,8 +42,7 @@ const Sidebar = ({ }) => (
         </div>
 
         <footer style={{
-          order: `1`,
-          position: `fixed`,
+          position: `absolute`,
           bottom: `30px`,
           fontSize: `17px`,
         }}>

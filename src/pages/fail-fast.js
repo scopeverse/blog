@@ -8,11 +8,16 @@ import SEO from "../components/seo"
 const SecondPage = () => (
   <Layout>
     <SEO title="Permission to Fail"
-          description="When we give ourselves permission to fail faster, we are giving ourselves permission to grow faster. This reasoning doesn’t come naturally. Testing ourselves early on triggers anxiety as we perceive our initial inability as failure. We are wired to avoid it because, for most part of human history, failing could lead to fatal consequences."
-          
-          />
+          description="When we give ourselves permission to fail faster, we are giving ourselves permission to grow faster. This reasoning doesn’t come naturally. Testing ourselves early on triggers anxiety as we perceive our initial inability as failure. We are wired to avoid it because, for most part of human history, failing could lead to fatal consequences."/>
 
     <h1>Permission to Fail</h1>
+    <span id="postInfo" style={{
+      fontFamily: `Montserrat`,
+      fontWeight: `400`,
+      marginTop: `-10px`,
+      marginBottom: `30px`,
+    }}
+    >Mon July 01, 2019 by <a href="https://twitter.com/malikpiara">Malik Piara</a></span>
 
     <p>The approach many people have to learning is to go through books, reading them from cover to cover. This linear strategy comes from our belief that the understanding of a subject will grow in direct proportion to the amount of hours we invest in it. This reasoning seems to be spread out across many domains as we often think of the world as linear.</p>
 

@@ -1,7 +1,15 @@
 @import url('https://fonts.googleapis.com/css?family=Montserrat:300,400,600|PT+Serif:400,700&display=swap');
 
+.btn {
+  width: 120px;
+  height: 50px;
+  background-color:black;
+  border-radius: 8px;
+  color: white;
+}
+
 .btn:hover {
-  background-color: #000 !important;
+  background-color:#252525;
 }
 
 html {
@@ -53,6 +61,7 @@ a {
 a:active,
 a:hover {
   outline-width: 0;
+  text-decoration: underline;
 }
 abbr[title] {
   border-bottom: none;
@@ -660,6 +669,51 @@ pre tt:after {
   z-index: 5;
 }
 
+.usernameSignup {
+  max-width: 800px;
+  height: 335px;
+  background-color:#FFF4F8;
+  background-image: url("https://svgshare.com/i/DoP.svg");
+  background-repeat: no-repeat;
+  background-position: -10% 100%;
+  padding: 70px 150px;
+  margin: 20px 0 20px 0;
+}
+
+.usernameSignupHeader {
+  color: #252525;
+  font-family: PT Serif;
+  font-size: 36px;
+  margin-left: 50px;
+  margin-right: -160px;
+}
+
+.usernameSignupText {
+  font-family: Montserrat;
+  font-weight: 300;
+  margin-left: 50px;
+  margin-right: -160px;
+}
+
+.usernameSignupForm {
+  margin-left: 50px;
+  margin-top: 30px;
+  width: 600px;
+}
+
+.usernameSignupFormInput {
+  border: none;
+  border-bottom: 1px solid #252525;
+  background: transparent;
+  margin-right: 20px;
+  width: 280px;
+  outline: none;
+}
+
 @media (max-width: 900px) {
   .navbar { display: none; background-color: red; }
+  .usernameSignup { background-image: none; margin: 0px 0px 20px -30px; padding: 70px; }
+  .usernameSignupHeader { }
+  .usernameSignupFormInput { width: 180px; }
+  .usernameSignupText { margin-right: 50px; }
 }

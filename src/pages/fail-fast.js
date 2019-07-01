@@ -17,7 +17,7 @@ const SecondPage = () => (
       marginTop: `-10px`,
       marginBottom: `30px`,
     }}
-    >Mon July 01, 2019 by <a href="https://twitter.com/malikpiara">Malik Piara</a></span>
+    >Mon July 01, 2019 by <a href="https://twitter.com/malikpiara" target="_blank">Malik Piara</a></span>
 
     <p>The approach many people have to learning is to go through books, reading them from cover to cover. This linear strategy comes from our belief that the understanding of a subject will grow in direct proportion to the amount of hours we invest in it. This reasoning seems to be spread out across many domains as we often think of the world as linear.</p>
 

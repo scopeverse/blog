@@ -21,11 +21,11 @@ module.exports = {
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
-        name: `gatsby-starter-default`,
-        short_name: `starter`,
+        name: `Hotscope Blog`,
+        short_name: `Hotscope Blog`,
         start_url: `/`,
-        background_color: `#663399`,
-        theme_color: `#663399`,
+        background_color: `#FF8DBD`,
+        theme_color: `#FF8DBD`,
         display: `minimal-ui`,
         icon: `src/images/FINAL.png`, // This path is relative to the root of the site.
       },

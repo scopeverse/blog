@@ -30,7 +30,7 @@ const SecondPage = () => (
     <h4>The Battleship Analogy</h4>
     <p>What we do not know is information we can use to improve. Let’s look at the example of battleship, the guessing game where we have to sink the hidden fleets of our opponent.</p>
 
-    <p>When we hit the water, that, can certainly feel like lack of success, if see it through the lens of someone who is too close to that move. In truth, what is perceived as failure here, actually increases our knowledge and keeps us from spending time where we don’t have anything to gain. Knowing where not to look is important and can become a great advantage after some time, like in the studying strategy.</p>
+    <p>When we hit the water, that, can certainly feel like lack of success, if seen through the lens of someone who is too close to that move. In truth, what is perceived as failure here, actually increases our knowledge and keeps us from spending time where we don’t have anything to gain. Knowing where not to look is important and can become a great advantage after some time, like in the studying strategy.</p>
 
     <h4>Lean Startups</h4>
     <p>When it comes to building new tech-enabled products, we work with assumptions about what a group of people need and want. We don’t actually know if they’ll want our solution. To reduce the feedback loop and learn about what not to build we put something in front of users as soon and as often as possible. – This is especially important. There are plenty of “ideas” but resources are pretty scarce.</p>
